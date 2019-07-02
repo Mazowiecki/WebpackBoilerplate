@@ -3,17 +3,20 @@ import './more-javascript/more.js';
 import 'normalize.css'; // Note this
 import './style/style.sass';
 import './style/style.css';
+import $ from 'jquery';
 
 const saySomething = (something) => {
   console.log(something); // eslint-disable-line no-console
 };
 
-saySomething('Something! (index.js)');
+saySomething('Something! (script.js)');
 
 /*
 To use jQuery, first install it as a dependency: `npm install --save jquery`.
 Then include `import $ from 'jquery';` at the top every JavaScript file that uses jQuery.
+
+*/
+
 $('span').mouseover(() => {
   alert('span span!');
 });
-*/
