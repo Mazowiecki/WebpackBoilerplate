@@ -5,18 +5,23 @@ import './style/style.sass';
 import './style/style.css';
 import $ from 'jquery';
 
-const saySomething = (something) => {
-  console.log(something); // eslint-disable-line no-console
-};
-
-saySomething('Something! (script.js)');
+// const saySomething = (something) => {
+//   console.log(something); // eslint-disable-line no-console
+// };
+//
+// saySomething('Something! (script.js)');
 
 /*
 To use jQuery, first install it as a dependency: `npm install --save jquery`.
 Then include `import $ from 'jquery';` at the top every JavaScript file that uses jQuery.
 
 */
+//
+// $('span').mouseover(() => {
+//   alert('span span!');
+// });
 
-$('span').mouseover(() => {
-  alert('span span!');
-});
+
+
+
+console.log('dupa');

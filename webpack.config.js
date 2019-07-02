@@ -13,7 +13,7 @@ const plugins = [
 module.exports = {
   entry: [
     'webpack-dev-server/client?http://localhost:8080',
-    './source/index.js'
+    './source/script.js'
   ],
   module: {
     rules: [
@@ -44,7 +44,7 @@ module.exports = {
   },
   output: {
     path: __dirname + '/build',
-    filename: 'index.js',
+    filename: 'script.js',
   },
   devServer: {
     contentBase: './source'

@@ -27,7 +27,7 @@ npm install
 
 ## Development
 
-Sample files are included in `source`. These files are meant to be replaced. The only constraint is that there must be a `source/index.js` file. Place all other files  inside `source` (nested sub-directories allowed).
+Sample files are included in `source`. These files are meant to be replaced. The only constraint is that there must be a `source/script.js` file. Place all other files  inside `source` (nested sub-directories allowed).
 
 `npm run start` to start the dev-server and view site at: `http://localhost:8080`. As files are edited in `source` the browser will update.
 
@@ -39,7 +39,7 @@ Sample files are included in `source`. These files are meant to be replaced. The
 
 ## JavaScript, SASS, CSS files
 
-This project uses Webpack which relies on a dependency graph. What this means as far as this project is concerned is that all JavaScript, SASS, and CSS files must be imported in `index.js` (or in files that can be accessed via `index.js`). See the sample included with the project at `source/index.js` for an example of how to do this.
+This project uses Webpack which relies on a dependency graph. What this means as far as this project is concerned is that all JavaScript, SASS, and CSS files must be imported in `script.js` (or in files that can be accessed via `script.js`). See the sample included with the project at `source/script.js` for an example of how to do this.
 
 ## HTML and images
 
